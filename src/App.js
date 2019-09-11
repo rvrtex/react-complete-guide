@@ -10,7 +10,7 @@ class App extends Component {
       {name: 'Michelle', age: 23}
     ],
     otherState: 'some other value'
-  }
+};
 
   switchNameHandler = () =>{
     this.setState( {
@@ -19,9 +19,10 @@ class App extends Component {
         {name: 'Buddy', age: 29},
         {name: 'Michelle', age: 22}
       ]
-    })
-  }
-  render() {
+    });
+  };
+  
+  render(){
     return (
       <div className="App">
         <h1>Hi I'm a react App</h1>
@@ -34,5 +35,6 @@ class App extends Component {
     );
   }
 }
-
 export default App;
+
+
